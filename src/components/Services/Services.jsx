@@ -35,6 +35,8 @@ function Services() {
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.1s"
               data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
               <div className="service-item rounded pt-3">
                 <div className="p-4">
@@ -55,6 +57,8 @@ function Services() {
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.3s"
               data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
               <div className="service-item rounded pt-3">
                 <div className="p-4">
@@ -75,6 +79,8 @@ function Services() {
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.6s"
               data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
               <div className="service-item rounded pt-3">
                 <div className="p-4">
@@ -91,7 +97,12 @@ function Services() {
               </div>
             </div>
             {/* card4 */}
-            <div className="col-lg-3 col-sm-6 wow fadeInUp" data-aos="zoom-in">
+            <div
+              className="col-lg-3 col-sm-6 wow fadeInUp"
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <div className="service-item rounded-pt-3">
                 <div className="p-4">
                   <FontAwesomeIcon

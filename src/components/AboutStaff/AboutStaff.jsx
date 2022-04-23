@@ -7,14 +7,13 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function AboutStaff() {
-  
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
 
   return (
-    <div>
+    <div id="team">
       <div className="container-xxl pt-5 pb-3">
         <div className="container">
           <div
@@ -25,11 +24,14 @@ function AboutStaff() {
               animationDelay: "0.5s",
               animationName: "fadeInUp",
             }}
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
           >
             <h5 className="section-title ff-secondary text-center text-warning fw-normal">
               Team Members
             </h5>
-            <h1 className="mb-5" data-aos="fade-up">Our Team Members</h1>
+            <h1 className="mb-5">Our Team Members</h1>
           </div>
           <div className="row g-4">
             <div
@@ -41,7 +43,12 @@ function AboutStaff() {
                 animationName: "fadeInUp",
               }}
             >
-              <div className="team-item text-center rounded overflow-hidden">
+              <div
+                className="team-item text-center rounded overflow-hidden"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
                 <div className="rounded-circle overflow-hidden m-4">
                   <img
                     className="img-fluid"
@@ -56,17 +63,6 @@ function AboutStaff() {
                 </div>
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
-                <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="/">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="/">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="/">
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </div>
               </div>
             </div>
             <div
@@ -78,7 +74,12 @@ function AboutStaff() {
                 animationName: "fadeInUp",
               }}
             >
-              <div className="team-item text-center rounded overflow-hidden">
+              <div
+                className="team-item text-center rounded overflow-hidden"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
                 <div className="rounded-circle overflow-hidden m-4">
                   <img
                     className="img-fluid"
@@ -93,17 +94,6 @@ function AboutStaff() {
                 </div>
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
-                <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="/">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="/">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="/">
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </div>
               </div>
             </div>
             <div
@@ -115,7 +105,12 @@ function AboutStaff() {
                 animationName: "fadeInUp",
               }}
             >
-              <div className="team-item text-center rounded overflow-hidden">
+              <div
+                className="team-item text-center rounded overflow-hidden"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
                 <div className="rounded-circle overflow-hidden m-4">
                   <img
                     className="img-fluid"
@@ -130,17 +125,6 @@ function AboutStaff() {
                 </div>
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
-                <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="/">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="/">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="/">
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </div>
               </div>
             </div>
             <div
@@ -152,7 +136,12 @@ function AboutStaff() {
                 animationName: "fadeInUp",
               }}
             >
-              <div className="team-item text-center rounded overflow-hidden">
+              <div
+                className="team-item text-center rounded overflow-hidden"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
                 <div className="rounded-circle overflow-hidden m-4">
                   <img
                     className="img-fluid"
@@ -167,17 +156,6 @@ function AboutStaff() {
                 </div>
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
-                <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="/">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="/">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a className="btn btn-square btn-primary mx-1" href="/">
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </div>
               </div>
             </div>
           </div>

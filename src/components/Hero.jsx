@@ -6,7 +6,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Hero() {
-  
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -36,6 +35,8 @@ function Hero() {
             <div
               className="col-lg-6 text-center text-lg-end overflow-hidden"
               data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
               <img src={Background} alt="" className="img-fluid" />
             </div>

@@ -23,7 +23,8 @@ function AboutWelcom() {
                       animationName: "zoomIn",
                     }}
                     data-aos="fade-down-right"
-                    data-aos-duration="1000"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
                   />
                 </div>
                 <div className="col-6 text-start">
@@ -39,7 +40,8 @@ function AboutWelcom() {
                       animationName: "zoomIn",
                     }}
                     data-aos="zoom-in"
-                    data-aos-duration="1000"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
                   />
                 </div>
                 <div className="col-6 text-end">
@@ -54,7 +56,8 @@ function AboutWelcom() {
                       animationName: "zoomIn",
                     }}
                     data-aos="zoom-in"
-                    data-aos-duration="1000"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
                   />
                 </div>
                 <div className="col-6 text-end">
@@ -69,7 +72,8 @@ function AboutWelcom() {
                       animationName: "zoomIn",
                     }}
                     data-aos="fade-up-left"
-                    data-aos-duration="1000"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
                   />
                 </div>
               </div>

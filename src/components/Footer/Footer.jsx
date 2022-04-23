@@ -1,11 +1,7 @@
-import {
-  faArrowUp,
-  faMailBulk,
-  faMapMarked,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+
+import { Link } from "react-scroll/modules";
+// import { Link } from "react-router-dom";
+import { FaDiscord, FaTwitter } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -26,54 +22,60 @@ function Footer() {
               </h4>
               <Link
                 to="about"
-                // spy={true}
-                // smooth={true}
-                // offset={-100}
-                // duration={500}
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
                 className="btn btn-link"
               >
                 About Us
               </Link>
               <Link
                 to="road"
-                // spy={true}
-                // smooth={true}
-                // offset={-100}
-                // duration={500}
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
                 className="btn btn-link"
               >
                 Roadmap
               </Link>
               <Link
                 to="team"
-                // spy={true}
-                // smooth={true}
-                // offset={-100}
-                // duration={500}
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
                 className="btn btn-link"
               >
                 Team
               </Link>
             </div>
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-6" id="contact">
               <h4
                 className="section-title ff-secondary text-start text-warning
                         fw-normal mb-4"
               >
                 Contact
               </h4>
-              <p className="mb-2 text-light">
-                <FontAwesomeIcon icon={faMapMarked} className="me-3" />
-                15 Street, Ibadan, Oyo State.
+              <p className="mb-2 ">
+                <a href="https://discord.gg/JxE2KfJxtU" className="text-light">
+                  {/* <FontAwesomeIcon icon={faMaLinkMarked} className="me-3" /> */}
+                  <FaDiscord className="me-3 text-light" />
+                  Discord
+                </a>
               </p>
-              <p className="mb-2 text-light">
-                <FontAwesomeIcon icon={faPhone} className="me-3" />
-                +2347034947199
+              <p className="mb-2 ">
+                <a
+                  href="https://twitter.com/KadenaKomodos"
+                  className="text-light"
+                >
+                  {/* <FontAwesomeIcon icon={faMaLinkMarked} className="me-3" /> */}
+                  <FaTwitter className="me-3 text-light" />
+                  Twitter
+                </a>
               </p>
-              <p className="mb-2 text-light">
-                <FontAwesomeIcon icon={faMailBulk} className="me-3" />
-                info@email.com
-              </p>
+
               <div className="d-flex pt-2">
                 {/* <a href="" className="btn btn-outline-light btn-social">
                                 <FontAwesomeIcon icon={faTwitter} />
