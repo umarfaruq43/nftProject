@@ -1,9 +1,4 @@
-import {
-  faCoffee,
-  faHamburger,
-  faUtensils,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import React from "react";
 import Product from "../Product";
 
