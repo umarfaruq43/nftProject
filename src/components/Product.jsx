@@ -1,6 +1,13 @@
 import Steps from "../assets/step.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Product() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   const steps = [
     {
       id: 1,
@@ -34,7 +41,7 @@ function Product() {
           <div className="row g-4">
             {steps.map(({ id, details }) => {
               return (
-                <div className="col-lg-6" key={id}>
+                <div className="col-lg-6" key={id} data-aos="fade-up">
                   <div className="d-flex align-items-center">
                     <img
                       className="flex-shrink-0 img-fluid rounded"

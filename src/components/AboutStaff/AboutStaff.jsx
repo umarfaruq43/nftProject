@@ -2,8 +2,17 @@ import Staff1 from "../../assets/team-1.jpg";
 import Staff2 from "../../assets/team-2.jpg";
 import Staff3 from "../../assets/team-3.jpg";
 import Staff4 from "../../assets/team-4.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function AboutStaff() {
+  
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div>
       <div className="container-xxl pt-5 pb-3">
@@ -20,7 +29,7 @@ function AboutStaff() {
             <h5 className="section-title ff-secondary text-center text-warning fw-normal">
               Team Members
             </h5>
-            <h1 className="mb-5">Our Team Members</h1>
+            <h1 className="mb-5" data-aos="fade-up">Our Team Members</h1>
           </div>
           <div className="row g-4">
             <div

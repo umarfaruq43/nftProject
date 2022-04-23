@@ -17,11 +17,11 @@ function Contact() {
               <iframe
                 className="position-relative rounded w-100 h-100"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253229.157682037!2d3.764972801140134!3d7.3868519425885255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103993aaaa99dbcf%3A0x3ede4603c33f260d!2sWest%20Grille%20Restaurant!5e0!3m2!1sen!2sng!4v1650602754333!5m2!1sen!2sng"
-                frameborder="0"
+                frameBorder="0"
                 style={{ minheight: 350, border: 0 }}
-                allowfullscreen=""
+                allowFullScreen=""
                 aria-hidden="false"
-                tabindex="0"
+                tabIndex="0"
                 title="myMap"
               ></iframe>
             </div>
@@ -37,7 +37,7 @@ function Contact() {
                           id="name"
                           placeholder="Your Name"
                         />
-                        <label for="name">Your Name</label>
+                        <label htmlFor="name">Your Name</label>
                       </div>
                     </div>
                     <div className="col-md-6">
@@ -48,7 +48,7 @@ function Contact() {
                           id="email"
                           placeholder="Your Email"
                         />
-                        <label for="email">Your Email</label>
+                        <label htmlFor="email">Your Email</label>
                       </div>
                     </div>
                     <div className="col-12">
@@ -59,7 +59,7 @@ function Contact() {
                           id="subject"
                           placeholder="Subject"
                         />
-                        <label for="subject">Subject</label>
+                        <label htmlFor="subject">Subject</label>
                       </div>
                     </div>
                     <div className="col-12">
@@ -70,7 +70,7 @@ function Contact() {
                           id="message"
                           style={{ height: 150 }}
                         ></textarea>
-                        <label for="message">Message</label>
+                        <label htmlFor="message">Message</label>
                       </div>
                     </div>
                     <div className="col-12">

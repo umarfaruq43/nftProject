@@ -24,14 +24,35 @@ function Footer() {
               >
                 Kadena Komodos
               </h4>
-              <Link to="/about" className="btn btn-link">
+              <Link
+                to="about"
+                // spy={true}
+                // smooth={true}
+                // offset={-100}
+                // duration={500}
+                className="btn btn-link"
+              >
                 About Us
               </Link>
-              <Link to="/products" className="btn btn-link">
-                Producs
+              <Link
+                to="road"
+                // spy={true}
+                // smooth={true}
+                // offset={-100}
+                // duration={500}
+                className="btn btn-link"
+              >
+                Roadmap
               </Link>
-              <Link to="/contact" className="btn btn-link">
-                Contact
+              <Link
+                to="team"
+                // spy={true}
+                // smooth={true}
+                // offset={-100}
+                // duration={500}
+                className="btn btn-link"
+              >
+                Team
               </Link>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -94,7 +115,7 @@ function Footer() {
                     className="btn btn-warning py-2 position-absolute
                                 top-0 end-0 mt-2 me-2"
                   >
-                    Subscribe 
+                    Subscribe
                   </button>
                 </div>
               </div>

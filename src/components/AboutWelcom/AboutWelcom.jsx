@@ -6,7 +6,7 @@ import Chair4 from "../../assets/about-1.jpeg";
 function AboutWelcom() {
   return (
     <div>
-      <div className="container-xxl py-5">
+      <div className="container-xxl py-5" id="about">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6">
@@ -22,6 +22,8 @@ function AboutWelcom() {
                       animationDelay: "0.1s",
                       animationName: "zoomIn",
                     }}
+                    data-aos="fade-down-right"
+                    data-aos-duration="1000"
                   />
                 </div>
                 <div className="col-6 text-start">
@@ -36,6 +38,8 @@ function AboutWelcom() {
                       animationDelay: "0.3s",
                       animationName: "zoomIn",
                     }}
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
                   />
                 </div>
                 <div className="col-6 text-end">
@@ -49,6 +53,8 @@ function AboutWelcom() {
                       animationDelay: "0.5s",
                       animationName: "zoomIn",
                     }}
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
                   />
                 </div>
                 <div className="col-6 text-end">
@@ -62,6 +68,8 @@ function AboutWelcom() {
                       animationDelay: "0.7s",
                       animationName: "zoomIn",
                     }}
+                    data-aos="fade-up-left"
+                    data-aos-duration="1000"
                   />
                 </div>
               </div>
@@ -73,7 +81,7 @@ function AboutWelcom() {
               <h1 className="mb-4">
                 {/* Welcome to   */}
                 {/* <i className="fa fa-utensils text-warning me-2"></i> */}
-                 Kadena Komodos
+                Kadena Komodos
               </h1>
               <p className="mb-4">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.

@@ -1,9 +1,20 @@
+import { useEffect } from "react";
 import Background from "../assets/coin.png";
+import Navbar from "./Navbar/Navbar";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Hero() {
+  
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div>
       <div className="container-xxl py-5 bg-dark hero-header mb-5">
+        <Navbar />
         <div className="container my-5 py-4">
           <div className="row align-items-center g-5">
             <div className="col-lg-6 text-center text-lg-start">
@@ -22,7 +33,10 @@ function Hero() {
                 Join Kadena
               </a>
             </div>
-            <div className="col-lg-6 text-center text-lg-end overflow-hidden">
+            <div
+              className="col-lg-6 text-center text-lg-end overflow-hidden"
+              data-aos="fade-up"
+            >
               <img src={Background} alt="" className="img-fluid" />
             </div>
           </div>

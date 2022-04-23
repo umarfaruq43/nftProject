@@ -1,4 +1,4 @@
-# SideHustle Internship Group 23 Capstone Restuarant Project
+# Kadena Komodos
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), 
 and it is aimed at monitoring the growth of interns.
