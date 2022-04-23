@@ -1,8 +1,8 @@
 import React from "react";
 import Nft from "../../assets/about-1.jpeg";
-import Chair2 from "../../assets/about-2.jpeg";
-import Chair3 from "../../assets/about-3.jpeg";
-import Chair4 from "../../assets/about-1.jpeg";
+import Nft2 from "../../assets/about-2.jpeg";
+import Nft3 from "../../assets/about-3.jpeg";
+import Nft4 from "../../assets/about-4.jpeg";
 function AboutWelcom() {
   return (
     <div>
@@ -31,7 +31,7 @@ function AboutWelcom() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src={Chair2}
+                    src={Nft2}
                     alt="hello"
                     style={{
                       marginTop: "25%",
@@ -48,7 +48,7 @@ function AboutWelcom() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.5s"
-                    src={Chair3}
+                    src={Nft3}
                     alt="hello"
                     style={{
                       visibility: "visible",
@@ -64,7 +64,7 @@ function AboutWelcom() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.7s"
-                    src={Chair4}
+                    src={Nft4}
                     alt="hello"
                     style={{
                       visibility: "visible",
