@@ -11,16 +11,24 @@ function Hero() {
     AOS.refresh();
   }, []);
   return (
-    <div>
-      <div className="container-xxl py-5 bg-dark hero-header mb-5">
+    <div style={{ zIndex: "1", minHeight: "100vh" }}>
+      <div className="container-xxl py-5  mb-5">
         <Navbar />
         <div className="container my-5 py-4">
-          <div className="row align-items-center g-5">
-            <div className="col-lg-6 text-center text-lg-start">
-              <h1 className="display-3 text-white animated slideInLeft">
+          <div className=" equal">
+            <div
+              className="col-lg-6 text-center text-lg-start"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <h1
+                className="display-3  animated slideInLeft"
+                style={{ color: "#fea116" }}
+              >
                 Kadena Komodos
               </h1>
-              <p className="text-white animated slideInLeft mb-4 pb-2">
+              <p className="text-white animated text-light slideInLeft mb-4 pb-2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Placeat minus, dolorem tempora veritatis nihil dolores?
               </p>
@@ -33,7 +41,7 @@ function Hero() {
               </a>
             </div>
             <div
-              className="col-lg-6 text-center text-lg-end overflow-hidden"
+              className=" text-center text-lg-end overflow-hidden"
               data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="1500"

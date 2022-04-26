@@ -171,14 +171,13 @@
 
 /*** Hero Header ***/
 .hero-header {
-  background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
-    url("./assets/nft2.jpg");
+  background: transparent;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.hero-header img {
+.equal img {
   animation: imgRotate 50s linear infinite;
 }
 
@@ -313,9 +312,7 @@
   object-fit: "cover";
 }
 
-
 /* ********************************************** */
-
 
 #main {
   margin: 50px 0;
@@ -329,7 +326,7 @@
 #main #faq .card .card-header {
   border: 0;
   -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
-          box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+  box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
   border-radius: 2px;
   padding: 0;
 }
@@ -338,20 +335,20 @@
   color: #fff;
   display: block;
   text-align: left;
-  background: #FFE472;
+  background: #ffe472;
   color: #222;
   padding: 20px;
 }
 
 #main #faq .card .card-header .btn-header-link:after {
   content: "\f107";
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   float: right;
 }
 
 #main #faq .card .card-header .btn-header-link.collapsed {
-  background: #A541BB;
+  background: #a541bb;
   color: #fff;
 }
 
@@ -360,7 +357,7 @@
 }
 
 #main #faq .card .collapsing {
-  background: #FFE472;
+  background: #ffe472;
   line-height: 30px;
 }
 
@@ -369,7 +366,18 @@
 }
 
 #main #faq .card .collapse.show {
-  background: #FFE472;
+  background: #ffe472;
   line-height: 30px;
   color: #222;
+}
+
+.equal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 760px) {
+  .equal {
+    flex-direction: column;
+  }
 }
