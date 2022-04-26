@@ -376,9 +376,9 @@
   align-items: center;
   justify-content: space-between;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 960px) {
   .equal {
     flex-direction: column;
-    gap:"50px"
+    /* gap:"300px" */
   }
 }
