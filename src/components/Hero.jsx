@@ -11,7 +11,7 @@ function Hero() {
     AOS.refresh();
   }, []);
   return (
-    <div style={{ zIndex: "1", minHeight: "100vh" }}>
+    <div style={{ zIndex: "1", minHeight: "80vh" }}>
       <div className="container-xxl py-5  mb-5">
         <Navbar />
         <div className="container my-5 py-4">

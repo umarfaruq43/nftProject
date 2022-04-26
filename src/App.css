@@ -379,5 +379,6 @@
 @media screen and (max-width: 760px) {
   .equal {
     flex-direction: column;
+    gap:"50px"
   }
 }
