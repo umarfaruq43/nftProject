@@ -378,7 +378,11 @@
 }
 @media screen and (max-width: 960px) {
   .equal {
-    flex-direction: column;
+    /* flex-direction: column; */
+    display: block;
     /* gap:"300px" */
+  }
+  .colTwo{
+    margin-top: 100px;
   }
 }

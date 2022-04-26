@@ -11,7 +11,7 @@ function Hero() {
     AOS.refresh();
   }, []);
   return (
-    <div style={{ zIndex: "1", minHeight: "80vh" }}>
+    <div style={{ zIndex: "1", minHeight: "100vh" }}>
       <div className="container-xxl py-5  mb-5">
         <Navbar />
         <div className="container my-5 py-4">
@@ -41,7 +41,7 @@ function Hero() {
               </a>
             </div>
             <div
-              className=" text-center text-lg-end overflow-hidden"
+              className=" text-center text-lg-end overflow-hidden mt-sm-5 colTwo"
               data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="1500"
