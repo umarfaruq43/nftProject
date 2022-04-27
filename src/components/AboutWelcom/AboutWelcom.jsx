@@ -22,7 +22,7 @@ function AboutWelcom() {
                       animationDelay: "0.1s",
                       animationName: "zoomIn",
                     }}
-                    data-aos="fade-down-right"
+                    data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500"
                   />
@@ -71,7 +71,7 @@ function AboutWelcom() {
                       animationDelay: "0.7s",
                       animationName: "zoomIn",
                     }}
-                    data-aos="fade-up-left"
+                    data-aos="fade-up"
                     data-aos-easing="linear"
                     data-aos-duration="1500"
                   />
