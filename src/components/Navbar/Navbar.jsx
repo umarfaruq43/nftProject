@@ -44,13 +44,7 @@ function Navbar() {
               >
                 About
               </Link>
-              {/* <Link
-                to="/"
-                className="nav-item nav-link active
-                    link-underline link-underline-warning"
-              >
-                Collection
-              </Link> */}
+              
               <Link
                 to="contact"
                 className="nav-item nav-link active

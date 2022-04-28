@@ -18,7 +18,7 @@ const faq = () => {
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                Accordion Item #1
+                When is the Mint going to be?
               </button>
             </h2>
             <div
@@ -28,23 +28,23 @@ const faq = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                It's also worth noting that just about any HTML can go within
-                the <code>.accordion-body</code>, though the transition does
-                limit overflow.
+                As soon as there is a working, infallible minting system in
+                Kadena. We speculate such a system will be in place sometime in
+                the summer.
               </div>
             </div>
           </div>
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingTwo">
               <button
-                className="accordion-button collapsed"
+                className="accordion-button collapsed "
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                Accordion Item #2
+                Where can I mint a Kadena Komodo?
               </button>
             </h2>
             <div
@@ -54,25 +54,24 @@ const faq = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions.
+                We are currently waiting on the completion of Marmalade – the
+                main NFT infrastructure being built on Kadena. We may opt for
+                other alternatives should the completion of Marmalade take too
+                long.
               </div>
             </div>
           </div>
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingThree">
               <button
-                className="accordion-button collapsed"
+                className="accordion-button collapsed "
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Accordion Item #3
+                What is the minting price going to be?
               </button>
             </h2>
             <div
@@ -82,11 +81,37 @@ const faq = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions.
+                We will follow the Kadena NFT ecosystem closely: its growth, the
+                minting price of other similar projects, and also the crypto
+                markets as a whole. Hence, we will decide on the price closer to
+                the release date.
+              </div>
+            </div>
+          </div>
+
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingThree">
+              <button
+                className="accordion-button collapsed "
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Is there a whitelist?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              className="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div className="accordion-body">
+                Yes, there will be around 200 whitelist spots available. They
+                can be obtained through winning various contests and by being an
+                active member of the community.
               </div>
             </div>
           </div>
