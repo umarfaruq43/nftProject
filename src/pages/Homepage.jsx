@@ -1,8 +1,7 @@
-
-import AboutHome from '../components/Dashboard/AboutHome'
-import Hero from '../components/Hero'
-import ProductsLanding from '../components/Products/ProductsLanding'
-import Services from '../components/Services/Services'
+import AboutHome from "../components/Dashboard/AboutHome";
+import Hero from "../components/Hero";
+import ProductsLanding from "../components/Products/ProductsLanding";
+import Services from "../components/Services/Services";
 import Faq from "../components/faq/Faq";
 
 
@@ -13,9 +12,10 @@ function Homepage() {
       <Services />
       <AboutHome />
       <ProductsLanding />
-      <Faq/>
+      
+      <Faq />
     </div>
-  )
+  );
 }
 
-export default Homepage
+export default Homepage;
