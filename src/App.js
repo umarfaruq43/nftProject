@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 
 import Footer from "./components/Footer/Footer";
-import { Parallax, useParallax } from "react-scroll-parallax";
 import lizard from "./assets/lizard.gif";
 import { useEffect, useState } from "react";
 // import AOS from "aos";
@@ -15,7 +14,6 @@ function App() {
   const [top, setTop] = useState(90);
   const [up, setUp] = useState(false);
   const [down, setDown] = useState(false);
-  const [movement, setMovement] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => setTop(window.pageYOffset + 200));
