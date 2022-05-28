@@ -29,12 +29,6 @@ function App() {
       }
       this.oldScroll = this.scrollY;
     };
-    return () => {
-      setTimeout(() => {
-        setDown(false);
-        setUp(false);
-      }, 2000);
-    };
   }, [top]);
 
   return (
