@@ -40,7 +40,7 @@ function App() {
             position: "absolute",
           
             top: `${top}px`,
-            transition: "1s ease-in-out",
+            transition: ".3s ease-in-out",
             zIndex: "1000",
             display: `${down ? "block" : "none"}`,
           }}
@@ -53,7 +53,7 @@ function App() {
             position: "absolute",
 
             top: `${top}px`,
-            transition: "1s ease-in-out",
+            transition: ".3s ease-in-out",
             zIndex: "1000",
             transform: "scaleY(-1)",
             display: `${up ? "block" : "none"}`,

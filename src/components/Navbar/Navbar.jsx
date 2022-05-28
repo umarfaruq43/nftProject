@@ -32,6 +32,7 @@ function Navbar() {
             <div className="navbar-nav ms-auto py-0 px-3 text-start">
               <Link
                 to="road"
+                style={{ cursor: "pointer" }}
                 className="nav-item nav-link active
                     link-underline link-underline-warning"
               >
@@ -39,14 +40,16 @@ function Navbar() {
               </Link>
               <Link
                 to="about"
+                style={{ cursor: "pointer" }}
                 className="nav-item nav-link active
                     link-underline link-underline-warning"
               >
                 About
               </Link>
-              
+
               <Link
                 to="contact"
+                style={{ cursor: "pointer" }}
                 className="nav-item nav-link active
                     link-underline link-underline-warning"
               >
@@ -55,6 +58,7 @@ function Navbar() {
 
               <Link
                 to="team"
+                style={{ cursor: "pointer" }}
                 className="nav-item nav-link active
                     link-underline link-underline-warning"
               >
