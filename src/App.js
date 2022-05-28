@@ -38,7 +38,7 @@ function App() {
           width="100px"
           style={{
             position: "absolute",
-            border: "1px solid red",
+          
             top: `${top}px`,
             transition: "1s ease-in-out",
             zIndex: "1000",
@@ -51,7 +51,7 @@ function App() {
           width="100px"
           style={{
             position: "absolute",
-            border: "1px solid red",
+
             top: `${top}px`,
             transition: "1s ease-in-out",
             zIndex: "1000",
