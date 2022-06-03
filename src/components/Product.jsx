@@ -11,27 +11,28 @@ function Product() {
   const steps = [
     {
       id: 1,
-      details: "lorem is just a dummy word in the printign press industries",
+      details: "Build the most reptilian community",
     },
     {
       id: 2,
-      details: "lorem is just a dummy word in the printign press industries",
+      details: "Release the Komodos into the wild – meaning the mint",
     },
     {
       id: 3,
-      details: "lorem is just a dummy word in the printign press industries",
+      details: "Donation to a reptile conservation charity",
     },
     {
       id: 4,
-      details: "lorem is just a dummy word in the printign press industries",
+      details: "Partnerships and development goals with other projects",
     },
     {
       id: 5,
-      details: "lorem is just a dummy word in the printign press industries",
+      details: "Significant NFT utility",
     },
     {
       id: 6,
-      details: "lorem is just a dummy word in the printign press industries",
+      details:
+        "Real-life integrations such as our own merch and/or other products",
     },
   ];
   return (

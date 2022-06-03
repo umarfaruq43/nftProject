@@ -14,7 +14,7 @@ function ProductsLanding() {
                 data-wow-delay="0.1s"
               >
                 <h4 className="ff-secondary text-center text-warning fw-semi-bold">
-                  Amazing Steps to get Started
+                  Preliminary Roadmap
                 </h4>
               </div>
             </div>

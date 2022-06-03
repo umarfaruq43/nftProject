@@ -38,7 +38,7 @@ function App() {
           width="100px"
           style={{
             position: "absolute",
-          
+
             top: `${top}px`,
             transition: ".3s ease-in-out",
             zIndex: "1000",

@@ -88,13 +88,11 @@ function AboutWelcom() {
                 Kadena Komodos
               </h1>
               <p className="mb-4">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officiis minima voluptatum vero excepturi, inventore nihil.
+                We 2000 quick-witted Komodo Dragons are the slickest and
+                slimiest clique in Kadena terra firma.
               </p>
               <p className="mb-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
-                laudantium eligendi quibusdam totam magni saepe fugiat
-                doloremque possimus dicta. Deserunt, non ea? Fugit, perferendis?
+                If you, too, are a smart reptile, be sure to join us
               </p>
               <div className="row g-4 mb-4">
                 <div className="col-sm-6">

@@ -29,9 +29,9 @@ function AboutStaff() {
             data-aos-duration="1500"
           >
             <h5 className="section-title ff-secondary text-center text-warning fw-normal">
-              Team Members
+              Team
             </h5>
-            <h1 className="mb-5">Our Team Members</h1>
+            <h1 className="mb-5">Core Team </h1>
           </div>
           <div className="row g-4">
             <div
@@ -52,7 +52,7 @@ function AboutStaff() {
                 <div className="rounded-circle overflow-hidden m-4">
                   <img
                     className="img-fluid"
-                    src={Staff1}
+                    src="https://media.discordapp.net/attachments/960569281295310858/982049912025927700/unknown.png"
                     alt=""
                     style={{
                       width: "200px",
@@ -61,8 +61,8 @@ function AboutStaff() {
                     }}
                   />
                 </div>
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">Komrade</h5>
+                <small>Founder</small>
               </div>
             </div>
             <div
@@ -83,7 +83,7 @@ function AboutStaff() {
                 <div className="rounded-circle overflow-hidden m-4">
                   <img
                     className="img-fluid"
-                    src={Staff2}
+                    src="https://media.discordapp.net/attachments/960569281295310858/982050067299049572/unknown.png"
                     alt=""
                     style={{
                       width: "200px",
@@ -92,8 +92,8 @@ function AboutStaff() {
                     }}
                   />
                 </div>
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">Malone</h5>
+                <small>Community Lead</small>
               </div>
             </div>
             <div
@@ -114,7 +114,7 @@ function AboutStaff() {
                 <div className="rounded-circle overflow-hidden m-4">
                   <img
                     className="img-fluid"
-                    src={Staff3}
+                    src="https://media.discordapp.net/attachments/960569281295310858/982050350305533992/unknown.png"
                     alt=""
                     style={{
                       width: "200px",
@@ -123,8 +123,8 @@ function AboutStaff() {
                     }}
                   />
                 </div>
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">AbuMasa </h5>
+                <small>Developer</small>
               </div>
             </div>
             <div
@@ -145,7 +145,7 @@ function AboutStaff() {
                 <div className="rounded-circle overflow-hidden m-4">
                   <img
                     className="img-fluid"
-                    src={Staff4}
+                    src="https://media.discordapp.net/attachments/960569281295310858/982261880376660018/632.png"
                     alt=""
                     style={{
                       width: "200px",
@@ -154,8 +154,8 @@ function AboutStaff() {
                     }}
                   />
                 </div>
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">Doc Reptilian</h5>
+                <small>Aritst</small>
               </div>
             </div>
           </div>
