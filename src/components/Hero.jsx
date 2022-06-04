@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Background from "../assets/coin.png";
 import Navbar from "./Navbar/Navbar";
 
 import AOS from "aos";
