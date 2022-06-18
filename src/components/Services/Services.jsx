@@ -22,7 +22,8 @@ function Services() {
         <div className="container">
           <div className="mb-5 text-center">
             <h2
-              className="section-title ff-secondary text-start text-warning
+            
+              className="section-title mt-5  ff-secondary text-start text-warning
                                 fw-normal"
             >
               Our Services

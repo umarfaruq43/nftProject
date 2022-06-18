@@ -10,7 +10,7 @@ function Hero() {
     AOS.refresh();
   }, []);
   return (
-    <div style={{ zIndex: "1", minHeight: "100vh" }}>
+    <div style={{ zIndex: "1", minHeight: "80vh" }}>
       <div className="container-xxl mb-10">
         <Navbar />
 
@@ -18,11 +18,11 @@ function Hero() {
           data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1500"
-          style={{  minHeight: "70vh", display:"flex", alignItems:"center", justifyContent:"center" }}
+          style={{position:"absolute", left:"50%",  top:"25%", transform:"translateX(-50%)"  }}
         >
           <h1
             className="display-5  animated slideInLeft text-center pt-5 ff-secondary"
-            style={{ color: "#fea116" }}
+            style={{ color: "#FC0FC0" }}
           >
             We are the lizards of Kadena.
           </h1>

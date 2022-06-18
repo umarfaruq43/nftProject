@@ -120,7 +120,7 @@ function AboutStaff() {
                     }}
                   />
                 </div>
-                <h5 className="mb-0">AbuMasa </h5>
+                <h5 className="mb-0">AbuMusa </h5>
                 <small>Developer</small>
               </div>
             </div>

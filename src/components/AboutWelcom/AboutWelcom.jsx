@@ -15,7 +15,7 @@ function AboutWelcom() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.1s"
-                    src={Nft}
+                    src="https://media.discordapp.net/attachments/960569281295310858/982056781092093952/51.png"
                     alt="hello"
                     style={{
                       visibility: "visible",
@@ -31,7 +31,7 @@ function AboutWelcom() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src={Nft2}
+                    src="https://media.discordapp.net/attachments/960569281295310858/982057311717711962/432.png"
                     alt="hello"
                     style={{
                       marginTop: "25%",
@@ -48,7 +48,7 @@ function AboutWelcom() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.5s"
-                    src={Nft3}
+                    src="https://media.discordapp.net/attachments/960569281295310858/982057735187214387/720.png"
                     alt="hello"
                     style={{
                       visibility: "visible",
@@ -64,7 +64,7 @@ function AboutWelcom() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.7s"
-                    src={Nft4}
+                    src="https://media.discordapp.net/attachments/960569281295310858/982058762191929385/588.png"
                     alt="hello"
                     style={{
                       visibility: "visible",
@@ -92,8 +92,11 @@ function AboutWelcom() {
                 slimiest clique in Kadena terra firma.
               </p>
               <p className="mb-4">
-                If you, too, are a smart reptile, be sure to join us
+                If you, too, are a smart reptile, be sure to join us.
+                SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
               </p>
+              {/* <p className="mb-4">
+              </p> */}
               <div className="row g-4 mb-4">
                 <div className="col-sm-6">
                   <div className="d-flex align-items-center border-start border-5 border-warning px-3">
