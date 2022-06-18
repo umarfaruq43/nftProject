@@ -1,8 +1,4 @@
 import React from "react";
-import Nft from "../../assets/about-1.jpeg";
-import Nft2 from "../../assets/about-2.jpeg";
-import Nft3 from "../../assets/about-3.jpeg";
-import Nft4 from "../../assets/about-4.jpeg";
 function AboutWelcom() {
   return (
     <div>
