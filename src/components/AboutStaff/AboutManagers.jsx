@@ -4,7 +4,7 @@ import AOS from "aos";
 
 function AboutManagers() {
   useEffect(() => {
-    AOS.init()
+    AOS.init();
     AOS.refresh();
   }, []);
 
@@ -58,7 +58,7 @@ function AboutManagers() {
                 <div className="rounded-circle overflow-hidden m-4">
                   <img
                     className="img-fluid"
-                    src="https://media.discordapp.net/attachments/960569281295310858/982261880376660018/632.png"
+                    src="https://media.discordapp.net/attachments/947975819324694542/981526539931910154/392.png"
                     alt=""
                     style={{
                       width: "200px",
@@ -67,7 +67,7 @@ function AboutManagers() {
                     }}
                   />
                 </div>
-                <h5 className="mb-0">live2own </h5>
+                <h5 className="mb-0">Live2own </h5>
               </div>
             </div>
             <div
@@ -97,7 +97,7 @@ function AboutManagers() {
                     }}
                   />
                 </div>
-                <h5 className="mb-0">growthmindset</h5>
+                <h5 className="mb-0">Growthmindset</h5>
               </div>
             </div>
           </div>
