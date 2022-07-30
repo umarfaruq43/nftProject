@@ -19,15 +19,16 @@ function Product() {
     },
     {
       id: 3,
-      details: "Donation to a reptile conservation charity",
+      details:
+        " Host a giveaway after the mint, start building the Community DAO.",
     },
     {
       id: 4,
-      details: "Partnerships and development goals with other projects",
+      details: " Partnerships and developmental goals with other projects.",
     },
     {
       id: 5,
-      details: "Significant NFT utility",
+      details: "Website 2.0 release, generation 2 collection.",
     },
     {
       id: 6,

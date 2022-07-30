@@ -1,4 +1,8 @@
 import React from "react";
+import imgOne from "../../assets/img1.jpeg";
+import imgtwo from "../../assets/img2.jpeg";
+import imgThree from "../../assets/img3.jpeg";
+import imgFour from "../../assets/img4.jpeg";
 function AboutWelcom() {
   return (
     <div>
@@ -11,7 +15,7 @@ function AboutWelcom() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.1s"
-                    src="https://media.discordapp.net/attachments/960569281295310858/982056781092093952/51.png"
+                    src={imgOne}
                     alt="hello"
                     style={{
                       visibility: "visible",
@@ -27,7 +31,7 @@ function AboutWelcom() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src="https://media.discordapp.net/attachments/960569281295310858/982057311717711962/432.png"
+                    src={imgtwo}
                     alt="hello"
                     style={{
                       marginTop: "25%",
@@ -44,7 +48,7 @@ function AboutWelcom() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.5s"
-                    src="https://media.discordapp.net/attachments/960569281295310858/982057735187214387/720.png"
+                    src={imgThree}
                     alt="hello"
                     style={{
                       visibility: "visible",
@@ -60,7 +64,7 @@ function AboutWelcom() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.7s"
-                    src="https://media.discordapp.net/attachments/960569281295310858/982058762191929385/588.png"
+                    src={imgFour}
                     alt="hello"
                     style={{
                       visibility: "visible",
@@ -83,17 +87,28 @@ function AboutWelcom() {
                 {/* <i className="fa fa-utensils text-warning me-2"></i> */}
                 Kadena Komodos
               </h1>
-              <p className="mb-4">
-                We 2000 quick-witted Komodo Dragons are the slickest and
-                slimiest clique in Kadena terra firma.
+              <p className="mb-4 play">
+                The slickest 1500 reptiles on Kadena. We as a community are home
+                to great banter and memes, but we also boast with our
+                intelligence and the ability to see great investment
+                opportunities wherever they lie.
               </p>
-              <p className="mb-4">
-                If you, too, are a smart reptile, be sure to join us.
-                SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+              <p className="mb-4 play">
+                But the benefits of being a part of the community don't stop
+                there as the Komodos will be built to have inherent value to
+                them. This might manifest as you getting an easy whitelist spot
+                from another project or receiving a cool airdrop just for
+                holding one of the Komodos.
               </p>
-              {/* <p className="mb-4">
-              </p> */}
-              <div className="row g-4 mb-4">
+              <p className="mb-4 play">
+                You are the boss. No, I mean, literally! As a holder, you will
+                have access to our exclusive community DAO. This means that as a
+                holder you get to have a vote in deciding the future direction
+                of the project; your voting power, by the way, will scale in
+                proportion to how many Komodos you hold. Feel free to gobble as
+                much power as you want, lizard.
+              </p>
+              {/* <div className="row g-4 mb-4">
                 <div className="col-sm-6">
                   <div className="d-flex align-items-center border-start border-5 border-warning px-3">
                     <h1
@@ -122,7 +137,7 @@ function AboutWelcom() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

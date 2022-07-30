@@ -30,9 +30,7 @@ const faq = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body play">
-                As soon as there is a working, infallible minting system in
-                Kadena. We speculate such a system will be in place sometime in
-                the summer.
+                The mint is going to take place on the 4th of August!
               </div>
             </div>
           </div>
@@ -58,10 +56,11 @@ const faq = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body play">
-                We are currently waiting on the completion of Marmalade – the
-                main NFT infrastructure being built on Kadena. We may opt for
-                other alternatives should the completion of Marmalade take too
-                long.
+                You can mint a Kadena Komodo on the Kadena Bulls' launchpad at
+                <a href="https://www.arkade.fun/mint/kadena-komodos">
+                  {" "}
+                  arkade.fun{" "}
+                </a>{" "}
               </div>
             </div>
           </div>
@@ -85,10 +84,8 @@ const faq = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body play">
-                We will follow the Kadena NFT ecosystem closely: its growth, the
-                minting price of other similar projects, and also the crypto
-                markets as a whole. Hence, we will decide on the price closer to
-                the release date.
+                The supply is 1500 Komodos. The price for the whitelist mint is
+                20 KDA and the price for the public mint is 25 KDA.
               </div>
             </div>
           </div>
@@ -116,6 +113,32 @@ const faq = () => {
                 Yes, there will be around 200 whitelist spots available. They
                 can be obtained through winning various contests and by being an
                 active member of the community.
+              </div>
+            </div>
+          </div>
+
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingFour">
+              <button
+                className="accordion-button collapsed fs-5 fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                How to get whitelisted?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              className="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div className="accordion-body play">
+                Follow our Twitter and Discord for ongoing whitelist
+                competitions!
               </div>
             </div>
           </div>
