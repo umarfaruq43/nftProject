@@ -96,33 +96,6 @@ const faq = () => {
                 className="accordion-button collapsed fs-5 fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#collapseFour"
-                aria-expanded="false"
-                aria-controls="collapseFour"
-              >
-                Is there a whitelist?
-              </button>
-            </h2>
-            <div
-              id="collapseFour"
-              className="accordion-collapse collapse"
-              aria-labelledby="headingFour"
-              data-bs-parent="#accordionExample"
-            >
-              <div className="accordion-body play">
-                Yes, there will be around 200 whitelist spots available. They
-                can be obtained through winning various contests and by being an
-                active member of the community.
-              </div>
-            </div>
-          </div>
-
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingFour">
-              <button
-                className="accordion-button collapsed fs-5 fw-bold"
-                type="button"
-                data-bs-toggle="collapse"
                 data-bs-target="#collapseFive"
                 aria-expanded="false"
                 aria-controls="collapseFive"
