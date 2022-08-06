@@ -85,7 +85,7 @@ const faq = () => {
             >
               <div className="accordion-body play">
                 The supply is 1500 Komodos. The price for the whitelist mint is
-                20 KDA and the price for the public mint is 25 KDA.
+                15 KDA and the price for the public mint is 20 KDA.
               </div>
             </div>
           </div>
