@@ -33,7 +33,7 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
+      <div className="App" style={{color: "#fff"}}>
         <div
           width="100px"
           style={{

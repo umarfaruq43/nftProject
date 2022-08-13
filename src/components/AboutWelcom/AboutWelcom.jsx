@@ -78,7 +78,7 @@ function AboutWelcom() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6" style={{ zIndex: 10, color: "#fff" }}>
               <h5 className="section-title ff-secondary text-start text-warning fw-normal">
                 About Us
               </h5>
