@@ -2,12 +2,28 @@ import React from "react";
 
 const faq = () => {
   return (
-    <div className="container-xxl py-1">
-      <div className="container">
+    <div
+      className="container-xxl py-1"
+      style={{
+        zIndex: 20,
+      }}
+    >
+      <div
+        className="container"
+        style={{
+          zIndex: 10,
+        }}
+      >
         <h4 className="ff-secondary text-center text-warning fw-semi-bold mb-5">
           FAQ
         </h4>
-        <div className="accordion" id="accordionExample">
+        <div
+          className="accordion"
+          id="accordionExample"
+          style={{
+            zIndex: 10,
+          }}
+        >
           {/* ************************ */}
 
           <div className="accordion-item">
@@ -29,14 +45,20 @@ const faq = () => {
               aria-labelledby="headingOne"
               data-bs-parent="#accordionExample"
             >
-              <div className="accordion-body play">
+              <h2 className="accordion-body play">
                 The mint is going to take place on the 4th of August!
-              </div>
+              </h2>
             </div>
           </div>
 
           {/* *********************************** */}
-          <div className="accordion-item">
+          <div
+            className="accordion-item"
+            style={{
+              color: "#fff",
+              zIndex: 10,
+            }}
+          >
             <h2 className="accordion-header" id="headingTwo">
               <button
                 className="accordion-button collapsed fs-5 fw-bold"
@@ -54,8 +76,18 @@ const faq = () => {
               className="accordion-collapse collapse"
               aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample"
+              style={{
+                color: "#fff",
+                zIndex: 10,
+              }}
             >
-              <div className="accordion-body play">
+              <div
+                className="accordion-body play"
+                style={{
+                  color: "#fff",
+                  zIndex: 10,
+                }}
+              >
                 You can mint a Kadena Komodo on the Kadena Bulls' launchpad at
                 <a href="https://www.arkade.fun/mint/kadena-komodos">
                   {" "}
@@ -64,7 +96,13 @@ const faq = () => {
               </div>
             </div>
           </div>
-          <div className="accordion-item">
+          <div
+            className="accordion-item"
+            style={{
+              color: "#fff",
+              zIndex: 10,
+            }}
+          >
             <h2 className="accordion-header" id="headingThree">
               <button
                 className="accordion-button collapsed fs-5 fw-bold"
@@ -82,6 +120,10 @@ const faq = () => {
               className="accordion-collapse collapse"
               aria-labelledby="headingThree"
               data-bs-parent="#accordionExample"
+              style={{
+                color: "#fff",
+                zIndex: 10,
+              }}
             >
               <div className="accordion-body play">
                 The supply is 1500 Komodos. The price for the whitelist mint is
@@ -90,7 +132,13 @@ const faq = () => {
             </div>
           </div>
 
-          <div className="accordion-item">
+          <div
+            className="accordion-item"
+            style={{
+              color: "#fff",
+              zIndex: 10,
+            }}
+          >
             <h2 className="accordion-header" id="headingFour">
               <button
                 className="accordion-button collapsed fs-5 fw-bold"
@@ -108,6 +156,10 @@ const faq = () => {
               className="accordion-collapse collapse"
               aria-labelledby="headingFour"
               data-bs-parent="#accordionExample"
+              style={{
+                color: "#fff",
+                zIndex: 10,
+              }}
             >
               <div className="accordion-body play">
                 Follow our Twitter and Discord for ongoing whitelist
