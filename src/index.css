@@ -17,6 +17,7 @@ code {
 .play {
   font-family: "Playfair Display", serif;
   z-index: 40 !important;
+  color: "#000" !important;
 }
 .accordion-item {
   z-index: 20 !important;

@@ -6,6 +6,8 @@ const faq = () => {
       className="container-xxl py-1"
       style={{
         zIndex: 20,
+        position: "relative",
+        color: "#000",
       }}
     >
       <div
@@ -45,20 +47,14 @@ const faq = () => {
               aria-labelledby="headingOne"
               data-bs-parent="#accordionExample"
             >
-              <h2 className="accordion-body play">
+              <div className="accordion-body play">
                 The mint is going to take place on the 4th of August!
-              </h2>
+              </div>
             </div>
           </div>
 
           {/* *********************************** */}
-          <div
-            className="accordion-item"
-            style={{
-              color: "#fff",
-              zIndex: 10,
-            }}
-          >
+          <div className="accordion-item">
             <h2 className="accordion-header" id="headingTwo">
               <button
                 className="accordion-button collapsed fs-5 fw-bold"
@@ -96,13 +92,7 @@ const faq = () => {
               </div>
             </div>
           </div>
-          <div
-            className="accordion-item"
-            style={{
-              color: "#fff",
-              zIndex: 10,
-            }}
-          >
+          <div className="accordion-item">
             <h2 className="accordion-header" id="headingThree">
               <button
                 className="accordion-button collapsed fs-5 fw-bold"
@@ -132,13 +122,7 @@ const faq = () => {
             </div>
           </div>
 
-          <div
-            className="accordion-item"
-            style={{
-              color: "#fff",
-              zIndex: 10,
-            }}
-          >
+          <div className="accordion-item">
             <h2 className="accordion-header" id="headingFour">
               <button
                 className="accordion-button collapsed fs-5 fw-bold"
