@@ -10,7 +10,7 @@ function Navbar() {
       <div className="container position-relative mx-auto left-0 p-0">
         <nav
           className="navbar navbar-expand-lg navbar-dark  px-4 px-lg-5
-        py-0 py-lg-0 "
+        py-4 py-lg-0 "
         >
           {/* Product Brand */}
           <Link to="/" className="navbar-brand p-0">
