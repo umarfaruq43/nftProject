@@ -5,14 +5,16 @@ const faq = () => {
     <div
       className="container-xxl py-1"
       style={{
+        backgroundColor: "transparent",
         zIndex: 20,
         position: "relative",
-        color: "#000",
+        color: "#fff",
       }}
     >
       <div
         className="container"
         style={{
+          backgroundColor: "transparent",
           zIndex: 10,
         }}
       >
@@ -23,6 +25,7 @@ const faq = () => {
           className="accordion"
           id="accordionExample"
           style={{
+            backgroundColor: "transparent",
             zIndex: 10,
           }}
         >
@@ -73,6 +76,7 @@ const faq = () => {
               aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample"
               style={{
+                backgroundColor: "transparent",
                 color: "#fff",
                 zIndex: 10,
               }}
@@ -80,6 +84,7 @@ const faq = () => {
               <div
                 className="accordion-body play"
                 style={{
+                  backgroundColor: "transparent",
                   color: "#fff",
                   zIndex: 10,
                 }}
@@ -111,6 +116,7 @@ const faq = () => {
               aria-labelledby="headingThree"
               data-bs-parent="#accordionExample"
               style={{
+                backgroundColor: "transparent",
                 color: "#fff",
                 zIndex: 10,
               }}
@@ -141,6 +147,7 @@ const faq = () => {
               aria-labelledby="headingFour"
               data-bs-parent="#accordionExample"
               style={{
+                backgroundColor: "transparent",
                 color: "#fff",
                 zIndex: 10,
               }}
