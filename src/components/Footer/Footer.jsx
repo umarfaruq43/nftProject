@@ -90,7 +90,10 @@ function Footer() {
 
               <div style={{ display: "flex", gap: "10px" }}>
                 <p className="mb-2 ">
-                  <a href="https://discord.gg/MGBYxtaK" className="text-light">
+                  <a
+                    href="https://discord.gg/q7j87wKXAG"
+                    className="text-light"
+                  >
                     <FaDiscord className="me-3 text-light" />
                     Discord
                   </a>
