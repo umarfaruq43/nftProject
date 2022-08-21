@@ -24,10 +24,19 @@ code {
   background-color: transparent !important;
   border: 1px solid #fff !important;
 }
+
+.accordion-item * {
+  background-color: transparent !important;
+  color: "#FFF" !important;
+}
 .accordion-body {
   z-index: 20 !important;
   /* display: none; */
 }
 .accordion-collapse {
   z-index: 20 !important;
+}
+.accordion-button {
+  background-color: transparent !important;
+  color: #fff !important;
 }
